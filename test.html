@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>My calculator</title>
+</head>
+<body>
+ 
+<form name"calc" Id="calc">
+    <table border=5>
+        <tr>
+        <td>
+            <input type="text" name="Input">
+        </td>
+        </tr>
+ 
+        <tr>
+        <td>
+            <input type="button" value=" 1 " onclick="calc.Input.value +='1'">
+            <input type="button" value=" 2 " onclick="calc.Input.value +='2'">
+            <input type="button" value=" 3 " onclick="calc.Input.value +='3'">
+            <input type="button" value=" + " onclick="calc.Input.value +='+'">
+            <br>
+            <input type="button" value=" 4 " onclick="calc.Input.value +='4'">
+            <input type="button" value=" 5 " onclick="calc.Input.value +='5'">
+            <input type="button" value=" 6 " onclick="calc.Input.value +='6'">
+            <input type="button" value=" - " onclick="calc.Input.value +='-'">
+            <br>
+            <input type="button" value=" 7 " onclick="calc.Input.value +='7'">
+            <input type="button" value=" 8 " onclick="calc.Input.value +='8'">
+            <input type="button" value=" 9 " onclick="calc.Input.value +='9'">
+            <input type="button" value=" * " onclick="calc.Input.value +='*'">
+            <br>
+            <input type="button" value=" c " onclick="calc.Input.value =''">
+            <input type="button" value=" 0 " onclick="calc.Input.value +='0'">
+            <input type="button" value=" = " onclick="calc.Input.value =eval(calc.Input.value)">
+            <input type="button" value=" / " onclick="calc.Input.value +='/'">
+        <br>
+        </td>
+        </tr>
+    </table>
+</form>
+ 
+</body>
+</html>
