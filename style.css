@@ -1,3 +1,7 @@
 body{
-  background-color: aqua;
+  border:solid 2px blue
+}
+form{
+  border:solid 2px red;
+  
 }
